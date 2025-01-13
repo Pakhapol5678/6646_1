@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th,td {
+          /*  border: 1px solid black; */
+            border-collapse: collapse;
+            width: 400px;
+            text-align: center;
+        }
+        th{
+            background-color: aqua;
+        }
+        th:nth-child(even){
+            background-color: hsl(33, 100%, 88%);
+        }
+        tr{
+            border-bottom: 1px solid red;
+        }
+        tr:hover {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Student List</title>
+
+
+</head>
+<body>
+  <h1>Basic Table</h1>
+  <h3>Student List</h3>
+  <!-- Start Code Here -->
+   <table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>Sprite</td>
+        <td>66/46</td>
+        <td>S+</td>
+    </tr>
+    <tr> 
+        <td>Fluke</td>
+        <td>66/46</td>
+        <td>SSS+</td>
+    </tr>
+    <tr>
+        <td>Sprite</td>
+        <td>66/46</td>
+        <td>A+</td>
+    </tr>
+   </table>
+
+
+  <!-- End Code Here -->
+
+  <hr>
+
+  <h1>Table with Colspan and Rowspan</h1>
+  <h3>Food Menu</h3>
+  <table border="1" cellpadding="1" cellspacing ="0" widch="85">
+    <tr>
+      <th>Day</th>
+      <th>Breakfast</th>
+      <th>Lunch</th>
+      <th>Dinner</th>
+    </tr>
+    
+    <tr>
+      <td>Monday</td>
+      <td>Toast</td>
+      <td>Pizza</td>
+      <td>Pasta</td>
+    </tr>
+     <tr>
+      <td rowspan="2" bgcolor="sky blue">Tuesday</td>
+      <td>Pancakes</td>
+      <td rowspan="2" bgcolor="red">Sandwich</td>
+      <td>Soup</td>
+    </tr>
+     <tr>
+      <td>Omelette</td>
+      <td>Steak</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td colspan="3" style="text-align: center;">Pizza</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: center;" bgcolor="green">Special Dinner Friday BBQ Night </td>
+    </tr>
+  <!-- Start Code Here -->
+
+
+  <!-- End Code Here -->
+  </table>
+
+  <hr>
+
+  <h1>Styled Table with CSS</h1>
+  <h3>Product List</h3>
+  <table>
+    <tr>
+      <th>Product</th>
+      <th>Category</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Laptop</td>
+      <td>Electronics</td>
+      <td>$999</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>Electronics</td>
+      <td>$599</td>
+    </tr>
+    <tr>
+      <td>Table</td>
+      <td>Furniture</td>
+      <td>$200</td>
+    </tr>
+  </table>
+
+
+  <hr>
+</body>
+</html>
