@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 40px;
+            font-family: Arial,"Kanit", sans-serif;
+            background-color: grey;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .container{
+            max-width: 600px;
+            background-color: rgb(240, 255, 212);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 100px black;
+
+        }
+        input,select,textarea{
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid cyan;
+        }
+        button{
+             padding: 10px;
+            border-radius: 5px;
+            border:none;
+            background-color: blue;
+            color: aliceblue;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        h1{
+            text-align: center;
+        }
+        button:hover{
+        background-color: turquoise;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Pessonal Information</h1>
+     <form action="" method="">
+     <label for="fnme">Name</label>
+      <input type="text" placeholder="Enter your name" required>
+
+       <label for="">Email</label>
+      <input type="text" placeholder="Enter your Email" required>
+
+       <label for="date">Brithday</label>
+      <input type="date" name="date" id="date">
+
+      <label for="province">Gender</label>
+        <select name="province" id="">
+                    <option value="Gender">--Select Gender</option>
+                    <option value="male">ผู้ชาย</option>
+                    <option value="female">ผู้หญิง</option>
+                    <option value="others">อื่นๆ</option>
+             </select>
+             <label for="Hobbies">Hobbies</label>
+             <textarea name="Hobbies" id="Hobbies" cols="30" rows="4"></textarea>
+            
+            
+            <label for="province">County</label>
+             <select name="province" id="">
+                    <option value="Gender">--Select Gender...</option>
+                    <option value="male">Eng</option>
+                    <option value="female">Win</option>
+                    <option value="others">อื่นๆ</option>
+            </select>
+            <button type="submit">submit</button>
+
+      </form>
+      </div>
+      <a href="index.html">back to home</a>
+</body>
+</html>
