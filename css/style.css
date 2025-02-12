@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+header {
+  background-color: rgb(240, 16, 46);
+  margin-bottom: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 64px;
+}
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn-primary {
+  background-color: hsl(129, 61%, 44%);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+}
+.btn-secondary {
+  background-color: white;
+  color: blue;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px soild blue;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+footer {
+  background-color: rgb(236, 2, 25);
+  display: flex;
+  height: 100px;
+  color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(12, 25, 210, 0.321);
+}
+button:hover {
+  color: black;
+  background-color: rgb(186, 185, 238);
+}
